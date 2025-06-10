@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Monitor Blanking V3.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Monitor Blanking V3.SchDoc|Designator=LED Driver|SchDesignator=LED Driver|FileName=LED Driver.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=LED Driver.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Monitor Blanking V3.SchDoc|Designator=System Power|SchDesignator=System Power|FileName=System Power.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=System Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

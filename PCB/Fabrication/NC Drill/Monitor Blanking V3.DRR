@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Monitor Blanking V3.PcbDoc   03/06/2025  17:14:39
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Monitor Blanking V3-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : Monitor Blanking V3-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : Monitor Blanking V3-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             7         PTH        15.18mm (0.60inch)
+T2      0.305mm (12mil)                                           Round             57        PTH        250.66mm (9.87inch)
+T3      0.72mm (28mil)                                            Round             6         PTH        10.00mm (0.39inch)
+T4      0.8mm (31mil)                                             Round             2         PTH        5.00mm (0.20inch)
+T5      0.8mm (31mil)                                             Slot              3         PTH        10.47mm (0.41inch)
+T6      0.9mm (35mil)                                             Round             6         PTH        18.30mm (0.72inch)
+T7      1mm (39mil)                                               Round             2         PTH        2.54mm (0.10inch)
+T8      1mm (39mil)                                               Slot              2         PTH        20.00mm (0.79inch)
+T9      1.5mm (59mil)                                             Round             6         PTH        53.82mm (2.12inch)
+T10     1.9mm (75mil)                                             Round             2         PTH        8.26mm (0.33inch)
+T11     2.64mm (104mil)                                           Round             2         PTH        14.37mm (0.57inch)
+T13     1.2mm (47mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T14     3.2mm (126mil)                                            Round             3         NPTH       122.00mm (4.80inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              99
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\Monitor Blanking V3\Monitor Blanking V3.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=monitor blanking v3-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=monitor blanking v3-slotholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=monitor blanking v3-roundholes-nonplated.txt|DrillLayers=gtl,gbl
