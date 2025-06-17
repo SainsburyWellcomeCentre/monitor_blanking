@@ -2,58 +2,8 @@
 FileName = Monitor Blanking V3.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top 3D Body
-      File : Monitor Blanking V3.GM13
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : Monitor Blanking V3.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D10
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : Monitor Blanking V3.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D90
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Monitor Blanking V3.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Monitor Blanking V3.GTP
-
-    Adding Layer      : Top Paste
+Generating : Top Pad Master
+      File : Monitor Blanking V3.GPT
 
     Adding Layer      : Top Layer
 
@@ -61,7 +11,6 @@ Generating : Top Paste
 
 
 Used DCodes :
-    D13
     D14
     D15
     D16
@@ -81,13 +30,28 @@ Used DCodes :
     D30
     D31
     D32
+    D33
+    D34
+    D35
+    D36
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : Monitor Blanking V3.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Pad Master
+      File : Monitor Blanking V3.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -95,20 +59,35 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
+    D19
+    D26
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Monitor Blanking V3.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -123,10 +102,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D33
-    D34
-    D35
-    D36
     D37
     D38
     D39
@@ -158,6 +133,64 @@ Used DCodes :
     D65
     D66
     D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Monitor Blanking V3.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Monitor Blanking V3.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Monitor Blanking V3.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D95
 *************************************************************
 
 *************************************************************
@@ -171,21 +204,49 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : Monitor Blanking V3.GTO
+Generating : Top 3D Body
+      File : Monitor Blanking V3.GM13
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Top 3D Body
 
 
 Used DCodes :
     D10
-    D11
-    D12
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : Monitor Blanking V3.GPT
+Generating : Bottom Layer
+      File : Monitor Blanking V3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D26
+    D75
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Monitor Blanking V3.GTL
 
     Adding Layer      : Top Layer
 
@@ -193,7 +254,6 @@ Generating : Top Pad Master
 
 
 Used DCodes :
-    D13
     D14
     D15
     D16
@@ -213,62 +273,10 @@ Used DCodes :
     D30
     D31
     D32
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : Monitor Blanking V3.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D25
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Monitor Blanking V3.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D25
-    D68
-    D74
+    D33
+    D34
+    D35
+    D36
     D75
     D76
     D77
@@ -284,11 +292,18 @@ Used DCodes :
     D87
     D88
     D89
+    D90
+    D91
+    D92
+    D93
+    D94
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Monitor Blanking V3.GTL
+Generating : Top Paste
+      File : Monitor Blanking V3.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -296,7 +311,6 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D13
     D14
     D15
     D16
@@ -316,27 +330,24 @@ Used DCodes :
     D30
     D31
     D32
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Monitor Blanking V3.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -349,9 +360,9 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D91
-    D92
-    D93
+    D96
+    D97
+    D98
 *************************************************************
 
 *************************************************************
@@ -364,7 +375,7 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D92
+    D96
 *************************************************************
 
 *************************************************************
@@ -373,6 +384,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D94
+    D99
 *************************************************************
 

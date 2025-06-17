@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Assembly.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=PDF
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=OneNote (Desktop)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,7 +36,7 @@ OutputName1=Bill of Materials
 OutputCategory1=Report
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=2
@@ -45,25 +45,25 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration1_Name1=ColumnNameFormat
 Configuration1_Item1=CaptionAsName
 Configuration1_Name2=General
-Configuration1_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1821|FormHeight=996|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=GBP|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1821|FormHeight=996|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=GBP|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration1_Name3=GroupOrder
-Configuration1_Item3=Comment=True|Footprint=True
+Configuration1_Item3=Footprint=True|LCSC Part N.=True
 Configuration1_Name4=PCBDocument
 Configuration1_Item4=FileName=PCB1.PcbDoc
 Configuration1_Name5=PCBDocument2
 Configuration1_Item5=FileName=[PCB Document 1]
 Configuration1_Name6=SortOrder
-Configuration1_Item6=Designator=Up|Comment=Up
+Configuration1_Item6=Comment=Down
 Configuration1_Name7=VisibleOrder
-Configuration1_Item7=Comment=103|Designator=94|Quantity=53|Description=592|PartNumber=138
+Configuration1_Item7=Designator=168|Quantity=53|Value=48|PartNumber=134|Comment=108|Description=564|Footprint=100|LCSC Part N.=71
 Configuration1_Name8=VisibleOrder_Flat
-Configuration1_Item8=Comment=103|Designator=94|Quantity=53|Description=592|PartNumber=138
+Configuration1_Item8=Designator=168|Quantity=53|Value=48|PartNumber=134|Comment=108|Description=564|Footprint=100|LCSC Part N.=71
 OutputType2=PCBDrawing
 OutputName2=Draftsman
 OutputCategory2=Documentation
 OutputDocumentPath2=Assembly.PCBDwf
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -74,7 +74,7 @@ OutputName3=Generates pick and place files
 OutputCategory3=Assembly
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
@@ -85,7 +85,7 @@ Configuration3_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 [PublishSettings]
 OutputFilePath2=C:\Users\Public\Documents\Altium\TTL Repeater-8CH\Project Outputs for TTL Repeater-8CH\Assembly Outputs\Assembly.pdf
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for TTL Repeater-8CH
+OutputBasePath2=Project Outputs for Monitor Blanking V3
 OutputPathMedia2=Assembly Outputs
 OutputPathMediaValue2=Assembly Outputs
 OutputPathOutputer2=[Output Type]
@@ -112,7 +112,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Public\Documents\Altium\TTL Repeater-8CH\Project Outputs for TTL Repeater-8CH\Assembly Outputs\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for TTL Repeater-8CH
+OutputBasePath3=Project Outputs for Monitor Blanking V3
 OutputPathMedia3=Assembly Outputs
 OutputPathMediaValue3=Assembly Outputs
 OutputPathOutputer3=

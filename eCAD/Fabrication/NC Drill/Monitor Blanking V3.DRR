@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Monitor Blanking V3.PcbDoc   03/06/2025  17:14:39
+NCDrill File Report For: Monitor Blanking V3.PcbDoc   17/06/2025  15:46:23
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,8 +9,8 @@ ASCII Plated SlotHoles File : Monitor Blanking V3-SlotHoles-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.2mm (8mil)                                              Round             7         PTH        15.18mm (0.60inch)
-T2      0.305mm (12mil)                                           Round             57        PTH        250.66mm (9.87inch)
+T1      0.2mm (8mil)                                              Round             7         PTH        15.33mm (0.60inch)
+T2      0.305mm (12mil)                                           Round             55        PTH        260.25mm (10.25inch)
 T3      0.72mm (28mil)                                            Round             6         PTH        10.00mm (0.39inch)
 T4      0.8mm (31mil)                                             Round             2         PTH        5.00mm (0.20inch)
 T5      0.8mm (31mil)                                             Slot              3         PTH        10.47mm (0.41inch)
@@ -23,6 +23,6 @@ T11     2.64mm (104mil)                                           Round         
 T13     1.2mm (47mil)                                             Round             1         NPTH       0.00mm (0.00inch)
 T14     3.2mm (126mil)                                            Round             3         NPTH       122.00mm (4.80inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              99
+Totals                                                                              97
 
 Total Processing Time (hh:mm:ss) : 00:00:00

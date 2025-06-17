@@ -68,7 +68,7 @@ This folder contains the complete mechanical design in Inventor 2025 project for
 
 For the circuit board, we recommend using the [JLCPCB](https://jlcpcb.com/) service for PCB fabrication and assembly. If you prefer to assemble the components yourself, you can check the [Bill of Materials (BOM)](eCAD/Assembly/BOM.xlsx) file.
 
-You can find the tutorial on how to order from JLCPCB [here](https://jlcpcb.com/capabilities/assembly).
+You can find the tutorial on how to order from JLCPCB in the [JLCPCB assembly tutorial](https://jlcpcb.com/capabilities/assembly).
 
 3D printed parts can be ordered from any 3D printing service of your choice. We recommend using [JLCPCB](https://jlcpcb.com/) for their competitive pricing and quality.
 
