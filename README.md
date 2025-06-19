@@ -1,32 +1,30 @@
 # Monitor Blanking
 
-A TTL-controlled switch to blank a monitor display, for use in behavioural experiments.
+A TTL-controlled hardware switch designed to blank monitor displays for use in behavioural experiments.
 
-**Note: This device is designed as a modification for monitors. Fine-tuning may be required for different models.**
+> **Note:** This device modifies existing monitors. Some tuning may be required depending on the model.
 
-![Assembled](img/assembled.png)
+<img src="img/assembled.png" alt="Assembled" width="800"/>
 
-## Features
+## 🔧 Features
 
-- Isolated TTL input up to 1MHz
-- Switch on-off time < 1us
-- Adjustable brightness
-- Forced-on switch for testing and debugging
-- Support output power up to 15W
+- Electrically isolated TTL input (up to 1 MHz)
+- Sub-1 µs switching time
+- Adjustable backlight brightness
+- Manual override switch for testing/debugging
+- Supports up to 15 W output power
 
-## Online eCAD Viewer
+## 🌐 View Online (eCAD)
 
-You can view the eCAD project online using the [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablab/).
+View the complete electronic design project online via [Altium 365 Viewer](https://sainsburywellcomecentre.github.io/fablab/):
 
 [![View in Altium 365](https://img.shields.io/badge/View%20in-Altium%20365-blue?logo=altium&logoColor=white)](https://sainsburywellcomecentre.github.io/fablab/)
 
-## Getting Started
+## 🚀 Getting Started
 
 <img src="img/panel.png" alt="Panel" width="300"/>
 
-## Folder Structure
-
-The project is structured as follows:
+## 📁 Project Structure
 
 ```bash
 ├── eCAD/
@@ -52,62 +50,78 @@ The project is structured as follows:
 
 ```
 
-### eCAD
+### `eCAD/`
 
-This folder contains an Altium Designer project and its output files.
+Contains Altium Designer source files, schematics, fabrication outputs, and documentation.
 
-### mCAD
+### `mCAD/`
 
-This folder contains the complete mechanical design in Inventor 2025 project formatand its output files.
+Contains 3D mechanical designs (Inventor 2025) and printable STL models.
 
-## Build on your own
+## 🛠️ Build It Yourself
 
-### Get the parts
+### 1. Get the Parts
 
-**Note: This section is for those who don't have resources to manufacture the parts in-house and want to order them from a PCB manufacturer and 3D printing service.**
+> For users without in-house fabrication capabilities.
 
-For the circuit board, we recommend using the [JLCPCB](https://jlcpcb.com/) service for PCB fabrication and assembly. If you prefer to assemble the components yourself, you can check the [Bill of Materials (BOM)](eCAD/Assembly/BOM.xlsx) file.
+- **PCB**: Order from [JLCPCB](https://jlcpcb.com/) (includes assembly service). Refer to the [Bill of Materials (BOM)](eCAD/Assembly/BOM.xlsx) for manual assembly.
+- **3D Prints**: Print the mechanical components using any 3D printing service. JLCPCB also offers 3D printing at competitive prices.
 
-You can find the tutorial on how to order from JLCPCB in the [JLCPCB assembly tutorial](https://jlcpcb.com/capabilities/assembly).
+See the [JLCPCB Assembly Tutorial](https://jlcpcb.com/capabilities/assembly) for step-by-step instructions.
 
-3D printed parts can be ordered from any 3D printing service of your choice. We recommend using [JLCPCB](https://jlcpcb.com/) for their competitive pricing and quality.
+### 2. Assembly & Installation
 
-### Assembly and Installation
+1. Place the **ring** under the potentiometer and insert it into the PCB before soldering. This ensures alignment with the BNC connector.
+2. Insert the **button** into the tactile switch.
+3. Attach the **base** underneath the PCB.
+4. Open the monitor’s rear panel and locate the 6-pin cable connected to the motherboard. Disconnect it and plug it into the white 6-pin connector on the circuit board.
+5. Connect the monitor's **live and neutral wires** to the 2-pin screw terminal on the board.
+6. Drill the back panel of the monitor to accommodate the BNC, potentiometer, and pushbutton.
 
-1. Put the 'ring' under the potentiometer and insert the potentiometer into the PCB before soldering it in place. This will allow the potentiometer to align with the BNC connector.
-2. Insert the 'button' into the pushbutton switch.
-3. Attach the 'base' under the circuit board.
-4. Open the back panel of the monitor, you will see a 6-pin cable connected to the motherboard. Unplug the 6-pin cable and connect it to the white 6-pin connector on the circuit board.
-5. Solder the live and neutral wires from the monitor to the circuit board. (2 pin screw terminal)
-6.
+   Use `mCAD/panel_drill.dxf` or refer to the manual drill dimensions below:
 
-## Requirements
+   <p align="center">
+       <img src="img/drill.png" alt="Drill Diagram" height="500" style="transform:rotate(90deg);"/>
+   </p>
 
-To access the source CAD projects, the required software for the project is as follows
+7. Mount the PCB to the panel and reassemble the monitor.
 
-- Altium Designer 24 or newer. Academic licenses can be obtained by contacting [Altium Education](https://www.altium.com/education/)
-- Inventor Pro 2025 or newer. Academic licenses can be obtained by contacting [Autodesk Education](https://www.autodesk.com/education/home)
+## ⚙️ Fine-Tuning the Blanking Driver
 
-## License
+The blanking driver circuit is designed to support a wide range of monitor backlight types. However, to ensure optimal performance, you may need to fine-tune the **VLED** voltage.
 
-Sainsbury Wellcome Centre hardware is released under [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
+### 🔧 Voltage Adjustment Guidelines
 
-Note: This is a human-readable summary of (and not a substitute for) the [license](License.txt).
+- Press the pushbutton to force the monitor **ON**, then use the trimmer **R9** to adjust the **VLED** until the backlight reaches the desired brightness level.
+- The **VLED** voltage can be adjusted within the range of **41 V to 61 V**.
+  > The recommended **VLED** is at least **2 V higher** than the forward voltage of the backlight panel.
+
+<div align="center">
+  <img src="img/trimmer.png" alt="Trimmer R9" width="600"/>
+</div>
+
+## 💻 Software Requirements
+
+To access the source CAD projects:
+
+- **Altium Designer 24** or newer  
+  Academic licenses available via [Altium Education](https://www.altium.com/education/)
+- **Autodesk Inventor Pro 2025** or newer  
+  Academic licenses via [Autodesk Education](https://www.autodesk.com/education/home)
+
+## 📜 License
+
+This project is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
 
 You are free to:
 
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material
-for any purpose, even commercially.
-The licensor cannot revoke these freedoms as long as you follow the license terms.
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose
+
 Under the following terms:
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-Notices:
+- **Attribution** — Give appropriate credit, link to the license, and indicate changes.
+- **ShareAlike** — Distribute your contributions under the same license.
+- **No additional restrictions** — Don’t apply legal or technological measures that prevent others from doing anything the license permits.
 
-You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
-No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
-
-## Acknowledgments
+> For the full legal text, see [License.txt](License.txt).
