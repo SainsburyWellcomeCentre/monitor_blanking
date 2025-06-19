@@ -81,7 +81,7 @@ See the [JLCPCB Assembly Tutorial](https://jlcpcb.com/capabilities/assembly) for
    Use `mCAD/panel_drill.dxf` or refer to the manual drill dimensions below:
 
    <p align="center">
-       <img src="img/drill.png" alt="Drill Diagram" height="500" style="transform:rotate(90deg);"/>
+       <img src="img/drill.png" alt="Drill Diagram" height="500"/>
    </p>
 
 7. Mount the PCB to the panel and reassemble the monitor.
