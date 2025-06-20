@@ -1,6 +1,6 @@
 # Monitor Blanking
 
-A TTL-controlled hardware switch designed to blank monitor displays for use in behavioural experiments.
+A TTL-controlled light switch designed to blank monitor displays for use in behavioural experiments.
 
 > **Note:** This device modifies existing monitors. Some tuning may be required depending on the model.
 
@@ -11,7 +11,7 @@ A TTL-controlled hardware switch designed to blank monitor displays for use in b
 - Electrically isolated TTL input (up to 1 MHz)
 - Sub-1 µs switching time
 - Adjustable backlight brightness
-- Manual override switch for testing/debugging
+- Forced-on switch for testing/debugging
 - Supports up to 15 W output power
 
 ## 🌐 View Online (eCAD)
@@ -93,7 +93,7 @@ The blanking driver circuit is designed to support a wide range of monitor backl
 ### 🔧 Voltage Adjustment Guidelines
 
 - Press the pushbutton to force the monitor **ON**, then use the trimmer **R9** to adjust the **VLED** until the backlight reaches the desired brightness level.
-- The **VLED** voltage can be adjusted within the range of **41 V to 61 V**.
+- The output voltage **VLED** can be adjusted within the range of **41 V to 61 V**.
   > The recommended **VLED** is at least **2 V higher** than the forward voltage of the backlight panel.
 
 <div align="center">
@@ -111,7 +111,7 @@ To access the source CAD projects:
 
 ## 📜 License
 
-This project is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
+**Sainsbury Wellcome Centre hardware is released under** [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).
 
 You are free to:
 
@@ -124,4 +124,4 @@ Under the following terms:
 - **ShareAlike** — Distribute your contributions under the same license.
 - **No additional restrictions** — Don’t apply legal or technological measures that prevent others from doing anything the license permits.
 
-> For the full legal text, see [License.txt](License.txt).
+> For the full legal text, see [LICENSE.txt](License.txt).
