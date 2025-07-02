@@ -6,6 +6,8 @@ A TTL-controlled light switch designed to blank monitor displays for use in beha
 
 <img src="img/assembled.png" alt="Assembled" width="800"/>
 
+In systems neuroscience research, you want to present visual stimuli to animals without damaging the sensors you use to record neural activity. e.g. photomultiplier (PMT) for multiphoton imaging. Monitor blanking is a commonly used approach to minimize monitor light contamination by blanking the monitor backlight during the imaging pixel acquisition. The monitor turns on only during flyback periods of the fast-scan axis. Another approach is to use [a 3D-printed cone](https://labrigger.com/blog/2024/11/17/a-fantastic-shroud-for-visual-stimulation-during-imaging/).
+
 ## 🔧 Features
 
 - Electrically isolated TTL input (up to 1 MHz)
@@ -21,8 +23,13 @@ View the complete electronic design project online via [Altium 365 Viewer](https
 [![View in Altium 365](https://img.shields.io/badge/View%20in-Altium%20365-blue?logo=altium&logoColor=white)](https://sainsburywellcomecentre.github.io/fablab/)
 
 ## 🚀 Getting Started
+Connect the monitor to your computer and adjust the resolution, scaling, etc. On Windows, navigate to `Settings > System > Display`. Pressing the **Forced ON** button will enable _debug_ mode, where the monitor functions as a standard monitor without digital pulses.
 
 <img src="img/panel.png" alt="Panel" width="300"/>
+
+Once the monitor is detected and configured (also disable the _debug_ mode), send digital pulses from your fast-axis mirror through the **Trigger** BNC connection. A low signal will blank the monitor, and a high signal will allow backlight illumination. (hence, you cannot see anything if you are not sending TTL pulses.) Here are example functions for ScanImage users to generate and send monitor blanking TTLs. [BaselLaserMouse/ScanImageTools](https://github.com/BaselLaserMouse/ScanImageTools)
+
+The luminance of the monitor can be measured using a luminance meter (e.g. LS-100, Konica Minolta) or a light sensor (e.g. Photodiode, Champalimaud Foundations’s Hardware Platform).
 
 ## 📁 Project Structure
 
@@ -125,3 +132,19 @@ Under the following terms:
 - **No additional restrictions** — Don’t apply legal or technological measures that prevent others from doing anything the license permits.
 
 > For the full legal text, see [LICENSE.txt](License.txt).
+
+## 📚 Reference
+```bibtex
+@ARTICLE{Leinweber2014-nf,
+  title     = "Two-photon calcium imaging in mice navigating a virtual reality environment",
+  author    = "Leinweber, Marcus and Zmarz, Pawel and Buchmann, Peter and Argast, Paul and Hübener, Mark and Bonhoeffer, Tobias and Keller, Georg B",
+  journal   = "Journal of visualized experiments: JoVE",
+  number    =  84,
+  pages     = "e50885",
+  month     =  feb,
+  year      =  2014,
+  url       =  "https://app.jove.com/t/50885/two-photon-calcium-imaging-mice-navigating-virtual-reality",
+  doi       =  {10.3791/50885}
+}
+
+```
