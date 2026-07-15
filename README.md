@@ -22,6 +22,10 @@ View the complete electronic design project online via [Altium 365 Viewer](https
 
 [![View in Altium 365](https://img.shields.io/badge/View%20in-Altium%20365-blue?logo=altium&logoColor=white)](https://sainsburywellcomecentre.github.io/fablab/)
 
+## Build your own
+
+Check out the **[latest release](https://github.com/SainsburyWellcomeCentre/fablabs-monitor-blanking/releases/latest)** for complete production files and instructions to build your own monitor blanking circuit.
+
 ## 🚀 Getting Started
 
 Connect the monitor to your computer and adjust the resolution, scaling, etc. On Windows, navigate to `Settings > System > Display`. Pressing the **Forced ON** button will enable _debug_ mode, where the monitor functions as a standard monitor without digital pulses.
@@ -104,6 +108,6 @@ Under the following terms:
 
 ## 📧 Contact
 
-- **Author**: [@DCisHurt](https://github.com/DCisHurt)
-- **Email**: [yuhsuan.chen@ucl.ac.uk](mailto:yuhsuan.chen@ucl.ac.uk)
+- **Author**: [Sainsbury Wellcome Centre FabLabs](https://www.sainsburywellcome.org/content/fablab)
+- **Email**: [swc.fablabs@ucl.ac.uk](mailto:swc.fablabs@ucl.ac.uk)
 - **Website**: [FabLabs](https://sainsburywellcomecentre.github.io/fablabs-documentation/#fablabs-monitor-blanking)
